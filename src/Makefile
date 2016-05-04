@@ -1,5 +1,5 @@
 #############################################################################
-# VideoStore
+# NetVideo
 #
 
 OBJS=VideoStore.o Video.o Rental.o Customer.o
