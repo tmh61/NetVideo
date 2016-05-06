@@ -28,9 +28,9 @@ void Customer::addRental(const Rental& rental) {
 
     rentals.push_back(rental);
 }
+/*****************************************/
 double Customer::amountFor() const {
   double thisAmount = 0;
-  
   switch(r->getVideo().getCode()) {
 
   case Video::REGULAR:
